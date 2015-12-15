@@ -13,7 +13,7 @@ class CalView: UIView {
     @IBOutlet weak var calTF: UITextField!
 
     var calValue_Defalut: Int = 1
-    var step: Int = 1
+    var step: Int = 2
     var calValue_Min = 0
     var calValue_Max = 12
 
@@ -34,8 +34,8 @@ extension CalView {
         return calView
     }
     
+    
     override func awakeFromNib() {
-        
         super.awakeFromNib()
         radius(4)
         border(width: 1, color: hexColor("7bffff"))
@@ -45,6 +45,11 @@ extension CalView {
     }
     
     func tfTextDidChange(noti: NSNotification){
+        check()
+        if calValue_Final != 0 {calValue_Final = Int(calTF.text!) ?? 0}
+    }
+    
+    func check(){
         if calValue_Final == 0 {calValue_Final=0}
         if calValue_Final > calValue_Max {calValue_Final = calValue_Max}
     }
@@ -52,10 +57,12 @@ extension CalView {
     
     @IBAction func reduceAction(sender: AnyObject) {
         calTF.resignFirstResponder()
-        if calValue_Final > 0 {calValue_Final--}
+        if calValue_Final > 0 {calValue_Final -= step}
+        check()
     }
     @IBAction func addAction(sender: AnyObject) {
-        if calValue_Final < calValue_Max {calValue_Final++}
+        if calValue_Final < calValue_Max {calValue_Final += step}
+        check()
     }
     
 }
