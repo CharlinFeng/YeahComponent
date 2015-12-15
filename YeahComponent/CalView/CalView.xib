@@ -22,6 +22,7 @@
                             <constraints>
                                 <constraint firstAttribute="width" secondItem="5SV-yB-bdy" secondAttribute="height" multiplier="4:3" id="U9s-bV-Jcs"/>
                             </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
                             <state key="normal" title="-">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
@@ -37,6 +38,7 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a85-DD-S7b">
                             <rect key="frame" x="295.5" y="0.0" width="126.5" height="88"/>
                             <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
                             <state key="normal" title="+">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
