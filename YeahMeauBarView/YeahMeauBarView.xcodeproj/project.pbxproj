@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8984892B1C40E2990094BFDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8984892A1C40E2990094BFDB /* AppDelegate.swift */; };
+		8984892D1C40E2990094BFDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8984892C1C40E2990094BFDB /* ViewController.swift */; };
+		898489301C40E2990094BFDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8984892E1C40E2990094BFDB /* Main.storyboard */; };
+		898489321C40E2990094BFDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 898489311C40E2990094BFDB /* Assets.xcassets */; };
+		898489351C40E2990094BFDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 898489331C40E2990094BFDB /* LaunchScreen.storyboard */; };
+		8984893E1C40E37C0094BFDB /* YeahMeauBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8984893D1C40E37C0094BFDB /* YeahMeauBarView.swift */; };
+		898489401C40E5F70094BFDB /* YeahMeauBarView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8984893F1C40E5F70094BFDB /* YeahMeauBarView.bundle */; };
+		898489441C410C0C0094BFDB /* CFSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898489431C410C0C0094BFDB /* CFSegmentControl.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		898489271C40E2990094BFDB /* YeahMeauBarView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YeahMeauBarView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8984892A1C40E2990094BFDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8984892C1C40E2990094BFDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8984892F1C40E2990094BFDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		898489311C40E2990094BFDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		898489341C40E2990094BFDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		898489361C40E2990094BFDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8984893D1C40E37C0094BFDB /* YeahMeauBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YeahMeauBarView.swift; sourceTree = "<group>"; };
+		8984893F1C40E5F70094BFDB /* YeahMeauBarView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YeahMeauBarView.bundle; sourceTree = "<group>"; };
+		898489431C410C0C0094BFDB /* CFSegmentControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFSegmentControl.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		898489241C40E2990094BFDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8984891E1C40E2990094BFDB = {
+			isa = PBXGroup;
+			children = (
+				898489291C40E2990094BFDB /* YeahMeauBarView */,
+				898489281C40E2990094BFDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		898489281C40E2990094BFDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				898489271C40E2990094BFDB /* YeahMeauBarView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		898489291C40E2990094BFDB /* YeahMeauBarView */ = {
+			isa = PBXGroup;
+			children = (
+				8984893C1C40E2AA0094BFDB /* YeahMeauBarView */,
+				898489411C410B410094BFDB /* FrameWorks */,
+				8984892A1C40E2990094BFDB /* AppDelegate.swift */,
+				8984892C1C40E2990094BFDB /* ViewController.swift */,
+				8984892E1C40E2990094BFDB /* Main.storyboard */,
+				898489311C40E2990094BFDB /* Assets.xcassets */,
+				898489331C40E2990094BFDB /* LaunchScreen.storyboard */,
+				898489361C40E2990094BFDB /* Info.plist */,
+			);
+			path = YeahMeauBarView;
+			sourceTree = "<group>";
+		};
+		8984893C1C40E2AA0094BFDB /* YeahMeauBarView */ = {
+			isa = PBXGroup;
+			children = (
+				8984893D1C40E37C0094BFDB /* YeahMeauBarView.swift */,
+				8984893F1C40E5F70094BFDB /* YeahMeauBarView.bundle */,
+			);
+			path = YeahMeauBarView;
+			sourceTree = "<group>";
+		};
+		898489411C410B410094BFDB /* FrameWorks */ = {
+			isa = PBXGroup;
+			children = (
+				898489421C410C0C0094BFDB /* CFSegmentControl */,
+			);
+			path = FrameWorks;
+			sourceTree = "<group>";
+		};
+		898489421C410C0C0094BFDB /* CFSegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				898489431C410C0C0094BFDB /* CFSegmentControl.swift */,
+			);
+			path = CFSegmentControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		898489261C40E2990094BFDB /* YeahMeauBarView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 898489391C40E2990094BFDB /* Build configuration list for PBXNativeTarget "YeahMeauBarView" */;
+			buildPhases = (
+				898489231C40E2990094BFDB /* Sources */,
+				898489241C40E2990094BFDB /* Frameworks */,
+				898489251C40E2990094BFDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YeahMeauBarView;
+			productName = YeahMeauBarView;
+			productReference = 898489271C40E2990094BFDB /* YeahMeauBarView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8984891F1C40E2990094BFDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "冯成林";
+				TargetAttributes = {
+					898489261C40E2990094BFDB = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 898489221C40E2990094BFDB /* Build configuration list for PBXProject "YeahMeauBarView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8984891E1C40E2990094BFDB;
+			productRefGroup = 898489281C40E2990094BFDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				898489261C40E2990094BFDB /* YeahMeauBarView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		898489251C40E2990094BFDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898489351C40E2990094BFDB /* LaunchScreen.storyboard in Resources */,
+				898489401C40E5F70094BFDB /* YeahMeauBarView.bundle in Resources */,
+				898489321C40E2990094BFDB /* Assets.xcassets in Resources */,
+				898489301C40E2990094BFDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		898489231C40E2990094BFDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8984893E1C40E37C0094BFDB /* YeahMeauBarView.swift in Sources */,
+				8984892D1C40E2990094BFDB /* ViewController.swift in Sources */,
+				898489441C410C0C0094BFDB /* CFSegmentControl.swift in Sources */,
+				8984892B1C40E2990094BFDB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8984892E1C40E2990094BFDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8984892F1C40E2990094BFDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		898489331C40E2990094BFDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				898489341C40E2990094BFDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		898489371C40E2990094BFDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		898489381C40E2990094BFDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8984893A1C40E2990094BFDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YeahMeauBarView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShiDian.YeahMeauBarView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8984893B1C40E2990094BFDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YeahMeauBarView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShiDian.YeahMeauBarView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		898489221C40E2990094BFDB /* Build configuration list for PBXProject "YeahMeauBarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				898489371C40E2990094BFDB /* Debug */,
+				898489381C40E2990094BFDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		898489391C40E2990094BFDB /* Build configuration list for PBXNativeTarget "YeahMeauBarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8984893A1C40E2990094BFDB /* Debug */,
+				8984893B1C40E2990094BFDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8984891F1C40E2990094BFDB /* Project object */;
+}
