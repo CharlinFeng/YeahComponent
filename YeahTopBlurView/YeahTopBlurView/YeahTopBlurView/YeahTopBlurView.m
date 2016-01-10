@@ -71,11 +71,8 @@
 }
 
 
+-(void)setImage:(UIImage *)image radius:(CGFloat)radius iterations:(NSInteger)iterations{
 
--(void)setImage:(UIImage *)image{
-
-    _image = image;
-    
     if(image == nil) return;
     
     self.imageView.image = [image blurredImageWithRadius:60 iterations:5 tintColor:[UIColor clearColor]];

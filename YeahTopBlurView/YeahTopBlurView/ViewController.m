@@ -27,7 +27,7 @@
     
     [self.imageV imageWithUrl:url placeHolderImage:nil compeleteBlock:^(UIImage *image) {
         
-        self.yeahTopBlurView.image = image;
+        [self.yeahTopBlurView setImage:image radius:40 iterations:2];
         
     }];
     

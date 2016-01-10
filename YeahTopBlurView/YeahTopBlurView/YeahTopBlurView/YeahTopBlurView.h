@@ -10,6 +10,7 @@
 
 @interface YeahTopBlurView : UIView
 
-@property (nonatomic,strong) UIImage *image;
+
+-(void)setImage:(UIImage *)image radius:(CGFloat)radius iterations:(NSInteger)iterations;
 
 @end
