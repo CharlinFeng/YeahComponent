@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		896E44F81C66427500C3DD62 /* CalView+LongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896E44F71C66427500C3DD62 /* CalView+LongPressGesture.swift */; };
 		896F69021C1FC22B00863224 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896F69011C1FC22B00863224 /* AppDelegate.swift */; };
 		896F69041C1FC22B00863224 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896F69031C1FC22B00863224 /* ViewController.swift */; };
 		896F69071C1FC22B00863224 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 896F69051C1FC22B00863224 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		896E44F71C66427500C3DD62 /* CalView+LongPressGesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CalView+LongPressGesture.swift"; sourceTree = "<group>"; };
 		896F68FE1C1FC22B00863224 /* YeahComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YeahComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		896F69011C1FC22B00863224 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		896F69031C1FC22B00863224 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				896F69151C1FC26500863224 /* CalView.swift */,
+				896E44F71C66427500C3DD62 /* CalView+LongPressGesture.swift */,
 				896F69171C1FC26F00863224 /* CalView.xib */,
 			);
 			path = CalView;
@@ -445,6 +448,7 @@
 				896F69601C1FC4A700863224 /* UIView+Extend.swift in Sources */,
 				896F694A1C1FC4A700863224 /* CoreGraphics.swift in Sources */,
 				896F69521C1FC4A700863224 /* UIWindow+AppDelegate.swift in Sources */,
+				896E44F81C66427500C3DD62 /* CalView+LongPressGesture.swift in Sources */,
 				896F694B1C1FC4A700863224 /* AnyObject+Extend.swift in Sources */,
 				896F69561C1FC4A700863224 /* UIColor+Extend.swift in Sources */,
 			);
@@ -596,6 +600,7 @@
 				896F69121C1FC22B00863224 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

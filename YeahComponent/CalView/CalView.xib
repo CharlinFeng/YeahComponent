@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15A4310" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
@@ -18,7 +18,6 @@
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5SV-yB-bdy">
                             <rect key="frame" x="0.0" y="0.0" width="126.5" height="88"/>
-                            <animations/>
                             <constraints>
                                 <constraint firstAttribute="width" secondItem="5SV-yB-bdy" secondAttribute="height" multiplier="4:3" id="U9s-bV-Jcs"/>
                             </constraints>
@@ -37,7 +36,6 @@
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a85-DD-S7b">
                             <rect key="frame" x="295.5" y="0.0" width="126.5" height="88"/>
-                            <animations/>
                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                             <state key="normal" title="+">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -48,13 +46,11 @@
                         </button>
                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="whR-o9-kxq">
                             <rect key="frame" x="126.5" y="0.0" width="169" height="88"/>
-                            <animations/>
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                             <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                         </textField>
                     </subviews>
-                    <animations/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="bottom" secondItem="a85-DD-S7b" secondAttribute="bottom" id="8Gk-AN-U5i"/>
@@ -72,7 +68,6 @@
                     </constraints>
                 </view>
             </subviews>
-            <animations/>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="N0H-0J-rdU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="7T5-f7-XQu"/>
@@ -82,7 +77,9 @@
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
+                <outlet property="addBtn" destination="a85-DD-S7b" id="axa-Bw-lR6"/>
                 <outlet property="calTF" destination="whR-o9-kxq" id="jgf-wr-F1L"/>
+                <outlet property="reduceBtn" destination="5SV-yB-bdy" id="8K0-Ba-mcc"/>
             </connections>
             <point key="canvasLocation" x="707" y="568"/>
         </view>
