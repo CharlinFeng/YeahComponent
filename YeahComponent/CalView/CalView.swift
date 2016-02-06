@@ -47,11 +47,17 @@ class CalView: UIView {
 
 
 extension CalView {
-    
+
     /** 获取实例 */
-    class func calViewInstance()->CalView {
+    class func calViewInstance(mathType: MathType, defaultValue: String, step: String, min: String, max: String, editable: Bool)->CalView {
         
         let calView = NSBundle.mainBundle().loadNibNamed("CalView", owner: nil, options: nil).first as! CalView
+        calView.mathType = mathType
+        calView.calValue_Defalut = defaultValue
+        calView.step = step
+        calView.calValue_Min = min
+        calView.calValue_Max = max
+        calView.editable = editable
         
         return calView
     }

@@ -22,13 +22,7 @@ class ViewController: UIViewController {
     
     func calViewPrepre(){
         
-        let calView = CalView.calViewInstance()
-        calView.step = "3.5"
-        calView.calValue_Min = "0.0"
-        calView.calValue_Defalut = "10.0"
-        calView.calValue_Max = "17.0"
-        calView.editable = false
-        calView.mathType = CalView.MathType.Float_Type
+        let calView = CalView.calViewInstance(CalView.MathType.Float_Type, defaultValue: "10.0", step: "6", min: "0.0", max: "100.0", editable: false)
         calView.frame = CGRectMake(0, 0, 120, 40)
         view.addSubview(calView)
         

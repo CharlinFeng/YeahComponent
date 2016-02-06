@@ -37,7 +37,7 @@ extension CalView {
     
     func long_common(){
     
-        timer = NSTimer.scheduledTimerWithTimeInterval(0.2, target: self, selector: "timerAction", userInfo: nil, repeats: true)
+        timer = NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: "timerAction", userInfo: nil, repeats: true)
         
     }
     
