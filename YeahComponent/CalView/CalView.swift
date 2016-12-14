@@ -11,7 +11,7 @@ import UIKit
 class CalView: UIView {
     
     enum MathType {
-    
+        
         /** 整型 */
         case Int_Type
         
@@ -41,13 +41,13 @@ class CalView: UIView {
     
     var timer: NSTimer!
     var isAdd: Bool!
-    
+    var valueChangeClosure:(Void->Void)?
     deinit{NSNotificationCenter.defaultCenter().removeObserver(self)}
 }
 
 
 extension CalView {
-
+    
     /** 获取实例 */
     class func calViewInstance(mathType: MathType, defaultValue: String, step: String, min: String, max: String, editable: Bool)->CalView {
         
@@ -65,8 +65,8 @@ extension CalView {
     override func awakeFromNib() {
         super.awakeFromNib()
         radius(4)
-        border(width: 1, color: hexColor("7bffff"))
-        calTF.border(width: 1, color: hexColor("7bffff"))
+        border(width: 1, color: hexColor("f15a5a"))
+        calTF.border(width: 1, color: hexColor("f15a5a"))
         calValue_Final = calValue_Defalut
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "tfTextDidChange:", name: UITextFieldTextDidChangeNotification, object: calTF)
         
@@ -80,6 +80,7 @@ extension CalView {
     
     func calValue_DefalutKVO(){
         calTF.text = "\(calValue_Defalut)"
+        valueChangeClosure?()
     }
     
     
@@ -110,7 +111,7 @@ extension CalView {
                 calValue_Final = calValue_Min
             }
         }
-
+        
         check()
     }
     @IBAction func addAction(sender: AnyObject!) {
@@ -148,7 +149,7 @@ extension CalView {
             let text = calTF.text
             
             if text!.hasPrefix("0") && text!.length > 1{
-            
+                
                 calTF.text = (text as! NSString).stringByReplacingOccurrencesOfString("0", withString: "")
             }
             
@@ -159,13 +160,13 @@ extension CalView {
         }
         
         
-        
+        valueChangeClosure?()
     }
 }
 
 
 extension String {
-
+    
     var toFloat_CalView: Float {
         return (self as NSString).floatValue
     }
